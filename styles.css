@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+header {
+  background-color:rgb(82,0,174);
+  padding: 0% 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  align-items: center;
+  }
+  .client__zone {
+  font-size: 70%;
+  display: flex;
+  flex-basis:50%;
+  justify-content: center;
+  align-items: stretch;
+
+  }
+  .client__zone > div {
+   margin:0% 5%;
+    flex-basis:auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .fonts_color {
+    color:rgb(112,238,255);
+  }
+  .fonts_color2 {
+    color: rgb(236,189,92);
+    align-self: flex-start;
+  }
+  .my_films {
+    border-bottom: 3px solid rgb(236,189,92);
+   }
+  #logoElb{
+    font-weight: 700;
+    font-size: 150%;
+    flex-basis:auto;
+   }
+  .profile2 {
+    display: none;
+
+  }
+  .profile {
+    font-size: 100%;
+    display: flex;
+    flex-basis:auto;
+    font-weight: 550;
+
+  }
+  main {
+    color: rgb(82,0,174);
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: column;   
+      }
+  .films_zone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    }
+  .films_zone > div {
+    margin: 1% 0%;
+  }
+ 
+  .img2 {
+    max-height: 200px;
+    border-radius: 10px;
+  }
+  .movie_title {
+    font-weight: bold;
+    font-size: 80%;
+  }
+  .about_movie {
+    font-weight:300px;
+    font-stretch: semi-condensed;
+    font-size: 80%;
+  }
+
+  @media (max-width: 728px) and (max-width: 1400px) {
+    header {
+      flex-direction: column;
+      align-items:stretch;
+
+    }
+    .profile {
+      display: none;
+    }
+    .profile2 {
+      display: flex;
+  
+    }
+    .client__zone {
+      justify-content: center; 
+
+    }
+    .client__zone > div {
+    margin:0% 1%;
+    font-size: 80%; 
+    flex-basis:auto; 
+    }
+    .logo {
+      display: flex;
+      justify-content: center; 
+    }
+    #logoElb {
+    font-size: 100%;
+    }
+    .el1 {
+      order:1;
+    }
+    .el2 {
+      order:2;
+    }
+    .el3 {
+      order:3;
+    }
+    .el4 {
+      order:5;
+    }
+    .el5 {
+      order:4;
+    } 
+    .icon {
+      width: 40%;
+    }
+    .my_films {
+      align-self:center;
+      border-bottom: 2px solid rgb(236,189,92);
+    }
+  }
